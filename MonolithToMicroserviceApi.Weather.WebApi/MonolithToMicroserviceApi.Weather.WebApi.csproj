@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MonolithToMicroserviceApi.Search.Services\MonolithToMicroserviceApi.Search.Services.csproj" />
     <ProjectReference Include="..\MonolithToMicroserviceApi.Shared.WebApi\MonolithToMicroserviceApi.Shared.WebApi.csproj" />
   </ItemGroup>
 

@@ -20,9 +20,10 @@ namespace MonolithToMicroserviceApi.Search.WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<SearchResponse> Get(SearchRequest request)
+        //example url - /search?searchTerm=cat
+        public async Task<SearchResponse> Get(string searchTerm)
         {
-            return Map(await _searchService.PerformSearchAsync(request.SearchTerm), request);
+            return Map(await _searchService.PerformSearchAsync(searchTerm), new SearchRequest { SearchTerm = searchTerm });
         }
 
         private SearchResponse Map(IEnumerable<SearchRecord> records, SearchRequest request)

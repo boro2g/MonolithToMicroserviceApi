@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using MonolithToMicroserviceApi.Search.WebApi.Configuration;
 using MonolithToMicroserviceApi.Shared.WebApi.Configuration;
 using MonolithToMicroserviceApi.Shared.WebApi.Extensions;
+using MonolithToMicroserviceApi.Weather.WebApi.Configuration;
 using System.Collections.Generic;
 
 namespace MonolithToMicroserviceApi.WebApi
@@ -21,7 +22,8 @@ namespace MonolithToMicroserviceApi.WebApi
             _apiConfigurations = new ApiConfiguration[]
             {
                 new SharedApiConfiguration(),
-                new SearchApiConfiguration()
+                new SearchApiConfiguration(),
+                new WeatherApiConfiguration(),
             };
         }
 

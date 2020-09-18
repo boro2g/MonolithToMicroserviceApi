@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithToMicroserviceApi.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithToMicroserviceApi.Search.WebApi", "MonolithToMicroserviceApi.Search.WebApi\MonolithToMicroserviceApi.Search.WebApi.csproj", "{2359FD72-A198-424B-95E4-499DD84028D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithToMicroserviceApi.Weather.WebApi", "MonolithToMicroserviceApi.Weather.WebApi\MonolithToMicroserviceApi.Weather.WebApi.csproj", "{0C4CCBC2-1EAE-4C61-80DC-9AC49D42BAE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{2359FD72-A198-424B-95E4-499DD84028D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2359FD72-A198-424B-95E4-499DD84028D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2359FD72-A198-424B-95E4-499DD84028D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4CCBC2-1EAE-4C61-80DC-9AC49D42BAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4CCBC2-1EAE-4C61-80DC-9AC49D42BAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4CCBC2-1EAE-4C61-80DC-9AC49D42BAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4CCBC2-1EAE-4C61-80DC-9AC49D42BAE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{60852C89-3569-4DE2-AE88-1BC4973B197E} = {3F2B953E-1C38-4E6F-95A9-C85791378D4B}
 		{B8F0C8C5-7F68-4417-AAD1-30B871F3F8B2} = {BD13BE4B-A6B5-4AAB-9A39-F59DA54AC927}
 		{2359FD72-A198-424B-95E4-499DD84028D5} = {BD13BE4B-A6B5-4AAB-9A39-F59DA54AC927}
+		{0C4CCBC2-1EAE-4C61-80DC-9AC49D42BAE0} = {BD13BE4B-A6B5-4AAB-9A39-F59DA54AC927}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D91F5C97-C03B-41C1-9FF4-4B655F2EAB4B}
