@@ -7,27 +7,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solutio
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithToMicroserviceApi.WebApi", "MonolithToMicroserviceApi.WebApi\MonolithToMicroserviceApi.WebApi.csproj", "{381E76CA-5664-4F45-B0F9-38C907594D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonolithToMicroserviceApi.WebApi", "MonolithToMicroserviceApi.WebApi\MonolithToMicroserviceApi.WebApi.csproj", "{381E76CA-5664-4F45-B0F9-38C907594D6D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{3F2B953E-1C38-4E6F-95A9-C85791378D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithToMicroserviceApi.Shared.WebApi", "MonolithToMicroserviceApi.Shared.WebApi\MonolithToMicroserviceApi.Shared.WebApi.csproj", "{6C8DD9BA-7A84-4895-A727-A72DC5198CCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonolithToMicroserviceApi.Shared.WebApi", "MonolithToMicroserviceApi.Shared.WebApi\MonolithToMicroserviceApi.Shared.WebApi.csproj", "{6C8DD9BA-7A84-4895-A727-A72DC5198CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithToMicroserviceApi.Shared.DependencyInjection", "MonolithToMicroserviceApi.Shared.DependencyInjection\MonolithToMicroserviceApi.Shared.DependencyInjection.csproj", "{DCB439B6-38C9-48BE-B940-DBDF2C6959A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonolithToMicroserviceApi.Shared.DependencyInjection", "MonolithToMicroserviceApi.Shared.DependencyInjection\MonolithToMicroserviceApi.Shared.DependencyInjection.csproj", "{DCB439B6-38C9-48BE-B940-DBDF2C6959A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithToMicroserviceApi.Shared.Core", "MonolithToMicroserviceApi.Shared.Core\MonolithToMicroserviceApi.Shared.Core.csproj", "{BF4318E5-0407-4308-8D4C-0ECC39BE8863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonolithToMicroserviceApi.Shared.Core", "MonolithToMicroserviceApi.Shared.Core\MonolithToMicroserviceApi.Shared.Core.csproj", "{BF4318E5-0407-4308-8D4C-0ECC39BE8863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithToMicroserviceApi.Shared.Services", "MonolithToMicroserviceApi.Shared.Services\MonolithToMicroserviceApi.Shared.Services.csproj", "{60852C89-3569-4DE2-AE88-1BC4973B197E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonolithToMicroserviceApi.Shared.Services", "MonolithToMicroserviceApi.Shared.Services\MonolithToMicroserviceApi.Shared.Services.csproj", "{60852C89-3569-4DE2-AE88-1BC4973B197E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Apis", "Web Apis", "{BD13BE4B-A6B5-4AAB-9A39-F59DA54AC927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithToMicroserviceApi.Search.Services", "MonolithToMicroserviceApi.Search.Services\MonolithToMicroserviceApi.Search.Services.csproj", "{B8F0C8C5-7F68-4417-AAD1-30B871F3F8B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonolithToMicroserviceApi.Search.Services", "MonolithToMicroserviceApi.Search.Services\MonolithToMicroserviceApi.Search.Services.csproj", "{B8F0C8C5-7F68-4417-AAD1-30B871F3F8B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithToMicroserviceApi.Search.WebApi", "MonolithToMicroserviceApi.Search.WebApi\MonolithToMicroserviceApi.Search.WebApi.csproj", "{2359FD72-A198-424B-95E4-499DD84028D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonolithToMicroserviceApi.Search.WebApi", "MonolithToMicroserviceApi.Search.WebApi\MonolithToMicroserviceApi.Search.WebApi.csproj", "{2359FD72-A198-424B-95E4-499DD84028D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithToMicroserviceApi.Weather.WebApi", "MonolithToMicroserviceApi.Weather.WebApi\MonolithToMicroserviceApi.Weather.WebApi.csproj", "{0C4CCBC2-1EAE-4C61-80DC-9AC49D42BAE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonolithToMicroserviceApi.Weather.WebApi", "MonolithToMicroserviceApi.Weather.WebApi\MonolithToMicroserviceApi.Weather.WebApi.csproj", "{0C4CCBC2-1EAE-4C61-80DC-9AC49D42BAE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
