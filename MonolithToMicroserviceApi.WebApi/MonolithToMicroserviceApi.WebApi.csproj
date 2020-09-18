@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MonolithToMicroserviceApi.Search.WebApi\MonolithToMicroserviceApi.Search.WebApi.csproj" />
+    <ProjectReference Include="..\MonolithToMicroserviceApi.Shared.Services\MonolithToMicroserviceApi.Shared.Services.csproj" />
+    <ProjectReference Include="..\MonolithToMicroserviceApi.Shared.WebApi\MonolithToMicroserviceApi.Shared.WebApi.csproj" />
+  </ItemGroup>
+
+
+</Project>
