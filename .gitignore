@@ -1,0 +1,45 @@
+# use glob syntax
+syntax: glob
+
+# Ignore Visual Studio files
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.log.*
+*.lib
+*.sbr
+*.scc
+*.dbmdl
+*.dbproj.schemaview
+*.docstates
+*.orig
+*.rej
+*.patch
+*.map
+[Bb]in/
+[Dd]ebug/
+obj/
+[Rr]elease/
+.vs/
+
+# Resharper
+_ReSharper*/
+*.DotSettings
+
+#Dependencies
+packages/*
+node_modules/
