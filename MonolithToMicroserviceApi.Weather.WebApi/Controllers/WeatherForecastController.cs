@@ -8,6 +8,7 @@ namespace MonolithToMicroserviceApi.Weather.WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]_specific")]
+    //[Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
